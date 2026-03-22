@@ -115,7 +115,7 @@ def api_auth():
         return db.execute('SELECT * FROM users WHERE api_key=?', (key,)).fetchone()
 
 # ── PUBLIC ────────────────────────────────────────────────
-@app.route('/'); 
+@app.route('/')
 def home(): return render_template('home.html', user=get_current_user())
 
 @app.route('/about')
