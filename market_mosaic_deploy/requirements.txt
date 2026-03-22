@@ -1,6 +1,0 @@
-Flask==3.0.3
-Werkzeug==3.0.3
-gunicorn==22.0.0
-razorpay==1.4.1
-twilio==9.3.5
-Flask-Mail==0.10.0
